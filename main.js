@@ -32,7 +32,7 @@ for (let i = firstDay; i > 0; i--) {
 
 for (let i = 1; i <= lastDay; i++) {
     if(i === new Date().getDate()) {
-        days += `<div class"today">${i}</div>`;    
+        days += `<div class="today">${i}</div>`;    
     } else {
         days += `<div>${i}</div>`;
     }
